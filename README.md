@@ -14,3 +14,14 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+git init
+git remote add origin https://github.com/minakshipatidar/React-Todo-List
+git remote
+git fetch origin
+git branch test_branch origin/main
+git checkout test_branch
+git add .
+git commit -m "Descriptive message"
+git push origin test_branch
